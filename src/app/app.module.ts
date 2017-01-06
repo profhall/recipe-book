@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { CollapseDirective } from 'ng2-bootstrap';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header.component';
@@ -30,7 +31,8 @@ import { RecipeStartComponent } from './recipes/recipe-start.component';
     ShoppingListAddComponent,
     DropdownDirective,
     RecipeEditComponent,
-    RecipeStartComponent
+    RecipeStartComponent,
+    CollapseDirective
   ],
   imports: [
     BrowserModule,

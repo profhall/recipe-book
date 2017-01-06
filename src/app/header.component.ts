@@ -7,7 +7,7 @@ import {RecipeService} from "./recipes/recipe.service";
   styles: []
 })
 export class HeaderComponent {
-
+  public isCollapsed: boolean = true;
   constructor(private recipeService:RecipeService) { }
 
   onStore() {
